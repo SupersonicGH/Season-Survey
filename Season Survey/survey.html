@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Survey-Justin Ford</title>
+    <link rel="stylesheet" href="css/styles.css">
+    <script src="js/process_form.js"></script>
+
+</head>
+
+<body>
+    <header>
+        <h1>Seasons Quiz!</h1>
+    </header>
+    <div class="sidebar">
+        <p class="sideText">Insert advertising/navigation here.</p>
+    </div>
+    <form action="#" method="post" name="infoForm">
+        <fieldset class="field1">
+            <legend class="field-label">Enter your Information!</legend>
+            <div id="fName" class="form-answer">
+                <label for="first_name">First Name:</label>
+                <input id="first_name" type="text" name="first_name" value>
+                <span id="firstHint"> </span>
+            </div>
+            <br>
+            <div id="lName" class="form-answer">
+                <label for="last_name">Last Name:</label>
+                <input id="last_name" type="text" name="last_name" value>
+                <span id="lastHint"> </span>
+            </div>
+            <br>
+            <div id="phoneN" class="form-answer">
+                <label for="phone">Phone:</label>
+                <input id="phone" type="phone" name="phone" value>
+                <span id="phoneHint"> </span>
+            </div>
+            <br>
+            <div id="emailV" class="form-answer">
+                <label for="email">Email:</label>
+                <input id="email" type="email" name="email" value>
+                <span id="emailHint"> </span>
+            </div>
+            <br>
+            <div id="webURL" class="form-answer">
+                <label for="website">Website URL:</label>
+                <input id="website" type="url" name="website" value>
+                <span id="webHint"> </span>
+            </div>
+            <br>
+            <div id="anonButton">
+                <label for="anonButton">Anonymous</label>
+                <input id="anon" type="checkbox" name="anon">
+            </div>
+        </fieldset>
+        <fieldset class="field2">
+            <legend class="field-label">Answer the Questions Below!</legend>
+            <dl>
+                <p id="Question_1">
+                    <legend>Which color do you prefer?</legend>
+                    <label for="A1">Blue</label>
+                    <input id="A1" type="radio" name="A" value="Blue">
+                    <br>
+                    <label for="A2">Orange</label>
+                    <input id="A2" type="radio" name="A" value="Orange">
+                </p>
+
+                <p id="Question_2">
+                    <legend>Which time of day do you prefer?</legend>
+                    <label for="A3">Sunrise</label>
+                    <input id="A3" type="radio" name="B" value="Sunrise">
+                    <br>
+                    <label for="A4">Sunset</label>
+                    <input id="A4" type="radio" name="B" value="Sunset">
+                </p>
+            </dl>
+        </fieldset>
+
+
+        <div id="submit_button">
+            <input name="submit" type="submit" class="button" id="submit" value="Submit">
+        </div>
+
+    </form>
+    <div id="badge">Results will be here! </div>
+    <footer>
+        <p>Created for DIG 3716c by Justin Ford</p>
+    </footer>
+</body>
+
+</html>

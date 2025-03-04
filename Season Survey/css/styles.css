@@ -1,0 +1,116 @@
+body {
+    display: grid;
+    grid-template-columns: 0.5fr 0.5fr 0.5fr 0.5fr 0.5fr;
+    grid-template-rows: 0.5fr 0.5fr 0.5fr 0.5fr;
+    font-family: Arial, Helvetica, sans-serif;
+    gap: 4px;
+    background-color: rgb(223, 180, 62);
+}
+
+
+
+
+header {
+    border: solid, 2px;
+    border-radius: 80px;
+    text-align: center;
+    padding: 60px;
+    grid-column: 2/ span 2;
+    font-size: 40px;
+    background-color: whitesmoke;
+}
+
+form {
+    grid-column: 2 / span 2;
+    grid-row: 2;
+
+}
+
+.sidebar {
+    grid-column: 4;
+    grid-row: 1/span 2;
+    border: solid, 1px;
+    border-radius: 80px;
+    text-align: center;
+    padding: 40%;
+    font-size: 25px;
+    background-color: whitesmoke;
+}
+
+footer {
+    grid-row: 4;
+    grid-column: 2/span 2;
+    text-align: center;
+    background-color: whitesmoke;
+    padding: 50px;
+    border-radius: 80px;
+    border: solid, 2px;
+}
+
+input[type=text] {
+    width: 21%;
+}
+
+input[type=phone] {
+    width: 24%;
+}
+
+input[type=email] {
+    width: 25%;
+}
+
+input[type=url] {
+    width: 20%;
+}
+
+input:focus {
+    outline-color: rgb(223, 180, 62);
+}
+
+.field1 {
+    border: 2px, solid;
+    align-content: center;
+    background-color: whitesmoke;
+    border-radius: 30px;
+}
+
+.field2 {
+    border: 2px, solid;
+    align-content: center;
+    background-color: whitesmoke;
+    border-radius: 30px;
+}
+
+.field-label {
+    color: black;
+}
+
+.button {
+    background-color: whitesmoke;
+    color: black;
+    font-size: 30px;
+    margin-top: 10px;
+    border-radius: 30px;
+    transition-duration: 0.4s;
+}
+
+.button:hover {
+    background-color: rgb(223, 180, 62);
+}
+
+#badge {
+    grid-row: 3;
+    grid-column: 2;
+    border: 2px, solid;
+    background-color: whitesmoke;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+span {
+    font-size: 15px;
+
+}

@@ -1,0 +1,26 @@
+Assignment 2:
+
+HTML:
+1.Create a form where the user enters their personal information
+2.Create a form where the user uses radio buttons to answer a survey with at least two questions with two answers each
+2.Create a badge at the end that has the user's entered info and the result of the survey
+
+Javascript:
+1.Create a function that will check that the personal information is valid
+  First Name: check that a string has been entered, that it is only made of letters (no numbers), and that it starts with a capital letter
+  Last Name: check that a string has been entered, that it only contains letters, or spaces, or apostrophes("'") (no numbers), and that is starts with a capital letter
+  Phone: check that numbers have been entered in the pattern XXX-XXX-XXXX
+  Email: check that the user entered something with the pattern ex@ex.com or ex@ex.edu
+  Website URl: check that the user entered a link with a tilde(~), a forward slash(/), and it begins with https://
+2.Create a hint area that will inform the user what to enter into the form when it is focused
+  It should be to the right of the text field
+2.Update the hint area when it is blurred to inform the user if the info they've entered is valid or not
+  If the inputs matches the requirements above, display "success"
+  If they do not match the requirements, display "error" with a message correcting them
+3.Create a function that returns a result based on the answers to the survey and personal info
+  Return a value for the answers picked in the survey
+  Store the values in variables that can be referenced at the end
+4.Create a function that outputs the personal info and the survey result into a badge
+  Use the variables with the user's info to print the badge on the page (eg. "name" + firstName)
+
+CSS:
